@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: Aleksandr
+      changes:
+        - sqlFile:
+            path: db/scripts/create_schema.sql
+  - changeSet:
+      id: 2
+      author: Aleksandr
+      changes:
+        - sqlFile:
+            path: db/scripts/insert_data.sql
